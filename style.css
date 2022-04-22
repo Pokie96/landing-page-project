@@ -198,3 +198,13 @@ li a{
     
 }
 
+/*Style for the footer of page: */
+
+.footer{
+    background-color: #1f2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px
+}
