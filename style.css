@@ -4,3 +4,27 @@ body{
     margin: 0;
     padding: 0;
 }
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    list-style: none;
+}
+
+h1{
+    color: white;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
