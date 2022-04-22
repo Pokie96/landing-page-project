@@ -38,7 +38,8 @@ li a{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 150px;
     background-color: #1f2937;
     height: 500px;
 }
