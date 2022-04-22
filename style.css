@@ -131,7 +131,7 @@ li a{
     background-color: #E5E7EB;
     align-items: center;
     justify-content: center;
-    height: 500px;
+    height: 400px;
 }
 
 .block3 .quote{
@@ -140,7 +140,7 @@ li a{
     color: #1f2937;
     width: 500px;
     padding: 0;
-    margin: 100px 0 0 0;
+    margin: 0;
 }
 
 .block3 .quote-source{
@@ -148,5 +148,53 @@ li a{
     padding: 0;
     color: #1f2937;
     font-weight: 700;
-    margin-left: 290px;
+    margin: 0 0 0 290px;
 }
+
+/*Style for fourth block of content: */
+ .block4{
+     height: 400px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .block4 .sign-in-banner{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     gap: 30px;
+     background-color: #3882F6;
+     padding: 40px 130px 40px 130px;
+     border-radius: 6px;
+     width: 600px;
+ }
+
+ .banner-text{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     gap: 5px;
+ }
+
+ .banner-text p{
+     margin: 0;
+     color: #E5E7EB;
+ }
+
+.first-line{
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.sign-in-button a{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-weight: 700;
+    border: #E5E7EB solid 2px;
+    border-radius: 6px;
+    padding: 5px 15px 5px 15px;
+    
+}
+
